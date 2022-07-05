@@ -46,23 +46,23 @@ body {
   justify-content: center;
 }
 #sobremim {
-  background-image: url("11.jpg");
+  background-image: url("./assets/images/11.jpg");
   background-repeat: repeat-y;
   background-size: 100%;
   /* border: 25vh solid white; */
 }
 #meusconhecimentos {
-  background-image: url("2.jpg");
+  background-image: url("./assets/images/2.jpg");
   background-repeat: repeat-y;
   background-size: 100%;
 }
 #ferramentas {
-  background-image: url("3.jpg");
+  background-image: url("./assets/images/3.jpg");
   background-repeat: repeat-y;
   background-size: 100%;
 }
 #contatos {
-  background-image: url("5.webp");
+  background-image: url("./assets/images/5.webp");
   background-repeat: repeat-y;
   background-size: 100%;
 }
