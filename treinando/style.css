@@ -1,0 +1,52 @@
+/* #ola {
+  font-size: 5rem;
+  color: blue;
+  /* background-color: #ccc; */
+/* font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  background: linear-gradient(90deg, #0c0c1c 6%, #221e98e2 40%);
+  padding: 10px;
+  margin: 10px;
+  transition: all 1s ease;
+  transform: scale(0.9);
+} */
+/* #ola:hover {
+  color: red;
+  background-color: black;
+  transform: scale(1);
+} */
+/* Usado para zerar toda 
+confg que tem no site 
+por padrao  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 3rem;
+  border: 1px solid black;
+}
+
+#center {
+  width: 200px;
+  height: 100px;
+}
+
+/* img {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+} */

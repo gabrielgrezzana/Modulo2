@@ -1,0 +1,100 @@
+#titulo-pagina {
+  color: white;
+}
+body {
+  background: rgb(10, 10, 28);
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(10, 10, 28, 1) 11%,
+    rgba(16, 14, 68, 1) 22%,
+    rgba(24, 19, 166, 1) 35%,
+    rgba(13, 62, 124, 1) 51%,
+    rgba(18, 9, 71, 1) 70%,
+    rgba(21, 14, 73, 1) 80%,
+    rgba(7, 3, 66, 1) 88%,
+    rgba(16, 16, 32, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(10, 10, 28, 1) 11%,
+    rgba(16, 14, 68, 1) 22%,
+    rgba(24, 19, 166, 1) 35%,
+    rgba(13, 62, 124, 1) 51%,
+    rgba(18, 9, 71, 1) 70%,
+    rgba(21, 14, 73, 1) 80%,
+    rgba(7, 3, 66, 1) 88%,
+    rgba(16, 16, 32, 1) 95%
+  );
+  background: linear-gradient(
+    270deg,
+    rgba(10, 10, 28, 1) 11%,
+    rgba(16, 14, 68, 1) 22%,
+    rgba(24, 19, 166, 1) 35%,
+    rgba(13, 62, 124, 1) 51%,
+    rgba(18, 9, 71, 1) 70%,
+    rgba(21, 14, 73, 1) 80%,
+    rgba(7, 3, 66, 1) 88%,
+    rgba(16, 16, 32, 1) 95%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0a1c",endColorstr="#101020",GradientType=1);
+}
+
+#networking {
+  color: blue;
+}
+
+.buttons {
+  color: blue;
+}
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+label {
+  color: white;
+}
+#html {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 100px;
+  top: 1175px;
+  display: flex;
+}
+#css {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 100px;
+  top: 1420px;
+}
+#js {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 200px;
+  top: 1420px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+.link {
+  color: red;
+}
+
+img#html {
+  width: 128px;
+  height: 128px;
+}
+img {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  left: 500px;
+  top: px;
+}

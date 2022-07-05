@@ -1,0 +1,102 @@
+h1 {
+  font-size: 1rem;
+  padding: 15px;
+
+  /* background: 162950; */
+}
+#apresentacao {
+  text-align: center;
+}
+body {
+  width: 100%;
+  background: linear-gradient(to right, #6600ff 0%, #009900 100%) no-repeat;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#apresentacao {
+  padding-top: 10vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* font-size: 3vh; */
+}
+
+.test {
+  display: flex;
+  justify-content: start;
+}
+.cabecario {
+  padding-top: 1vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.subtitle {
+  text-align: center;
+}
+.icons {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+#sobremim {
+  background-image: url("11.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  /* border: 25vh solid white; */
+}
+#meusconhecimentos {
+  background-image: url("2.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+#ferramentas {
+  background-image: url("3.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+#contatos {
+  background-image: url("5.webp");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+.divisao {
+  padding: 40vh;
+  /* height: 100vh; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.loko {
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+  padding-top: 10vh;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #6600ff 0%, #009900 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  text-decoration: none;
+}

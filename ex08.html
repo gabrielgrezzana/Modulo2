@@ -1,0 +1,44 @@
+<!-- Crie um arquivo chamado ex08.html, nele insira uma section e dentro dela adicione um form nele você irá construir um cadastro de um dev, 
+faremos algumas perguntas para explorar a maioria de funcionalidades de um formulário possível, os campos serão:
+Nome
+Sobrenome
+E-mail
+De qual lado da aplicação você desenvolve, com três opções de escolha única, Front, Back ou FullStack no formato radio box
+Senioridade, com um campo select e três opções, júnior, pleno e sênior.
+Selecione as tecnologias que utiliza, com quantas opções você preferir, porém, no formato checkbox permitindo múltipla seleção.
+Conte um pouco mais da sua experiência, campo no formato textarea, com espaço para digitar um texto maior.
+Botão de conclusão.\
+Provavelmente você precise pesquisar por alguns elementos novos, mas o código será disponibilizado e você pode tirar suas dúvidas com o professor disponível. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <label for="nome">Digite seu nome:</label>
+        <input type="name" id="nome" />
+        <br />
+        <label for="sobrenome">Digite seu sobrenome:</label>
+        <input type="name" id="sobrenome" />
+        <label for="e-mail">Digite seu e-mail:</label>
+        <input type="email" id="e-mail" />
+        <label for="escolha">Qual aplicação você desenvolve:</label>
+        <input type="radio" name="a" />Front <input type="radio" name="a" />Back
+        <input type="radio" name="a" />FullStack
+        <br />
+        <label for="senioridade">Qual seu conhecimento</label>
+        <select id="senioridade">
+          <option value="" selected></option>
+          <option value="1">júnior</option>
+          <option value="2">pleno</option>
+          <option value="3">sênior</option>
+        </select>
+      </form>
+    </section>
+  </body>
+</html>
