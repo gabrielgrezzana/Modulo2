@@ -1,0 +1,42 @@
+/* 
+Zerar configurações no navegador
+Aplicar um fonte externa no documento inteiro.
+Diminuir tamanho do texto to titulo e colocar um cinza-claro
+Agrupar os subtítulos e vídeos em divs e todas as divs em uma section
+Aplicar flex-box nas sections
+Mudar a direção do flex para coluna, na section;
+Adicionar uma sombra nas sections
+Adicionar espaçamentos para os subtítulos e os videos
+Centralizar os vídeos com flex-box. */
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&family=Splash&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gulzar, Splash;
+}
+body {
+  margin: 3rem 2rem;
+  font-family: Gulzar, Splash;
+}
+h1 {
+  font-size: 1rem;
+  color: #ccc;
+}
+#pai {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  box-shadow: black 0px 3px 8px;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  padding: 10px;
+}

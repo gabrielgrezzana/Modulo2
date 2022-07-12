@@ -1,0 +1,41 @@
+/* Zerar configurações no navegador
+Aplicar um fonte externa no documento inteiro.
+Adicione flex no body para centralizar a section que contem o form.
+Seja criativo, adicione o estilo que você preferir nos demais elementos */
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Gulzar&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Splash&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Playfair;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: purple;
+}
+
+#title {
+  color: blue;
+  border: 10px solid black;
+}
+
+input {
+  background-color: green;
+}
+
+input:hover {
+  background-color: yellow;
+}
+
+button {
+  background-color: green;
+}
+
+button:hover {
+  text-size-adjust: 2rem;
+  background-color: yellow;
+}
