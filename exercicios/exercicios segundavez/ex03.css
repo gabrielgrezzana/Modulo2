@@ -1,0 +1,44 @@
+/* Zerar configurações no navegador
+Aplicar um fonte externa no documento inteiro
+Centralizar o título, paragrafo do título e subtitulo
+Diminuir tamanho do texto to titulo e colocar um cinza-claro
+Agrupar os parágrafos e imagens em sections
+Aplicar flex-box nas sections
+Mudar a ordem da imagem com o texto, conforme resultado abaixo, com o flex-box
+Adicionar uma sombra nas sections
+Adicionar espaçamentos para a imagem e o texto desgrudarem da borda */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+#paragrafo1 {
+  font-size: 0.5rem;
+  color: #ccc;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 5px 5px black;
+  align-items: center;
+  gap: 70px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}

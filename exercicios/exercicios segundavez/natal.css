@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#capa {
+  background-color: #f7c7b9;
+  width: 100%;
+  height: 40vh;
+}
+#lista {
+  display: flex;
+  list-style: none;
+  gap: 23px;
+  float: right;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+li {
+  font-size: 16px;
+  weight: 500px;
+  position: relative;
+}
+#capa2 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-left: 350px;
+}
+#fraseinicial {
+  padding-right: 250px;
+}
+#image {
+  width: 600px;
+  height: 360px;
+  left: 726px;
+  top: 130px;
+  padding-left: 250px;
+  padding-top: 50px;
+}
+#frase {
+  width: 488px;
+  height: 104px;
+  left: 112px;
+  top: 178px;
+  font-weight: 600;
+  font-size: 48px;
+}
+p {
+  width: 444px;
+  height: 48px;
+  left: 112px;
+  top: 306px;
+  padding-top: 5px;
+}
+button {
+  padding: 12px 32px;
+  gap: 10px;
+  background-color: #da2535;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
