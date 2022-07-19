@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(espaco.jpg);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body,
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  background-color: rgba(102, 51, 153, 0.418);
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  justify-content: space-around;
+  backdrop-filter: blur(4.3px);
+}
+
+button {
+  padding: 0.9rem;
+  background-color: rgba(102, 51, 153, 0.418);
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 1em purple;
+  cursor: pointer;
+}
